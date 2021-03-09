@@ -1,6 +1,6 @@
 # Toolpath-Generation
 ## Checklist
-[image](https://user-images.githubusercontent.com/79973649/110300592-54208880-7ff7-11eb-9b82-80e1ff1f0fbc.png)
+![image](https://user-images.githubusercontent.com/79973649/110300592-54208880-7ff7-11eb-9b82-80e1ff1f0fbc.png)
 
 
 //Briefly describe what the model, and more importanly the Grashopper part does for the user
