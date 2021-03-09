@@ -38,13 +38,13 @@ An initial voronoi structure is provided. This geometry can be replaced with cus
 
 
 ## Layout
-The scripts are organized according certain principles considering the layout. 
+The scripts are organized according to certain principles considering the layout. 
 
-Every script start with a title and abstract:
+Every script starts with a title and abstract:
 ![image](https://user-images.githubusercontent.com/79973649/110442889-9a3f2000-80bb-11eb-8a9f-126067af3967.png)
 Make sure the file is saved on this view when the file is public.
 
-The components are organized and ordered in groups and subgroups. Every group has at least a title. If required it also contains a description. The smallest groups are titled in the group header, a level above that by a scribble with font-size 25, and the main groups with a scribble of 50.
+The components are organized and ordered in groups and subgroups. Every group has at least a title. If required it also contains a description. The smallest groups are titled in the group header, a level above that by a scribble with font-size 25, and the main groups with a scribble with font-size 50. All the wires which reduce the readability of the script are set to display 'Hidden'.
 ![image](https://user-images.githubusercontent.com/79973649/110443530-4f71d800-80bc-11eb-814d-444d47377813.png)
 
 The descriptions are made in white panels.
