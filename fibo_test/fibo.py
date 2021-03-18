@@ -1,14 +1,14 @@
-def fib(n):    # write Fibonacci series up to n
-    a, b = 0, 1
-    while a < n:
-        print(a, end=' ')
-        a, b = b, a+b
-    print()
+def generate_fibonacci_sequence(n):  
+    if n > 0:
+        number = 1 
+        prev_number = 0 
+        for i in range(n):
+            if i < 1: 
+                yield prev_number
+            else:
+                yield number
+                number += prev_number
+                prev_number = number - prev_number 
 
-def fib2(n):   # return Fibonacci series up to n
-    result = []
-    a, b = 0, 1
-    while a < n:
-        result.append(a)
-        a, b = b, a+b
-    return result
+def get_fibonacci_sequence(n):
+    return np.array(list(generate_fibonacci_sequence(n)))
