@@ -1,3 +1,5 @@
+import numpy as np
+
 def generate_fibonacci_sequence(n):  
     if n > 0:
         number = 1 
