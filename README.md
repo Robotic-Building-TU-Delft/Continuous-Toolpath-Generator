@@ -1,4 +1,4 @@
-# Toolpath-Generation
+# Toolpath generator 
 ## Checklist
 ![image](https://user-images.githubusercontent.com/79973649/110300592-54208880-7ff7-11eb-9b82-80e1ff1f0fbc.png)
 
@@ -19,8 +19,8 @@ These files generate a single continuous toolpath from a 3D Voronoi structure wi
 
 ## Usage
 The process consists of a sequence of scripts which need to be run and baked in this order:
-- Toolpaths.gh
-- Continuous Toolpaths.gh
+- `toolpaths.gh`
+- `continuous_toolpaths.gh`
 - 
 //The main geometry is in Toolpaths.3dm. After baking the curves in Toolpaths.gh the .3dm file becomes too large. We'll need to find a proper strategy for this.
 
@@ -37,7 +37,7 @@ An initial voronoi structure is provided. This geometry can be replaced with cus
 
 
 
-## Layout
+## Style
 The scripts are organized according to certain principles considering the layout. 
 
 Every script starts with a title and abstract:
