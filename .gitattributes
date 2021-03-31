@@ -1,0 +1,5 @@
+Toolpaths.3dm filter=lfs diff=lfs merge=lfs -text
+continuous_toolpaths.gh filter=lfs diff=lfs merge=lfs -text
+Toolpaths.gh filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.3dmbak filter=lfs diff=lfs merge=lfs -text
