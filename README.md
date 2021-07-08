@@ -1,7 +1,7 @@
 # Continuous Toolpath generator for cellular structures
 ## Introduction
-This workflow takes a geometry in the form of a mesh and generates a continuous toolpath.You an can find an example of a generated [toolpath here]().
-![Tool path generator example](./docs/imgs/tool-path.png)
+This workflow takes a geometry in the form of a mesh and generates a continuous toolpath.You an can find an example of a generated:
+![Tool path generator example](./docs/img/tool-path.png)
 
 This workflow is based on Rhino > 7 and Grasshopper.
 
