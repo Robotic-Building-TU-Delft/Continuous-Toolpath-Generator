@@ -1,7 +1,10 @@
 # Continuous Toolpath generator for cellular structures
+⚠️ Documentation still under development
+[Checkout our documentation website for a more complete explanation](https://robotic-building-tu-delft.github.io/Continuous-Toolpath-Generator/)
 ## Introduction
 This workflow takes a geometry in the form of a mesh and generates a continuous toolpath.You an can find an example of a generated:
-![Tool path generator example](./docs/img/tool-path.png)
+
+![Tool path generator example](./docs/img/intro-img.png)
 
 This workflow is based on Rhino > 7 and Grasshopper.
 
@@ -35,32 +38,10 @@ These files generate a single continuous toolpath from a 3D Voronoi structure wi
 
 ## Usage
 The process consists of a sequence of scripts which need to be run and baked in this order:
+
+
 - `toolpaths.gh`
 - `continuous_toolpaths.gh`
-- 
+
 //The main geometry is in Toolpaths.3dm. After baking the curves in Toolpaths.gh the .3dm file becomes too large. We'll need to find a proper strategy for this.
 
-
-
-
-
-## Style
-The scripts are organized according to certain principles considering the layout. 
-
-Every script starts with a title and abstract:
-![image](./docs/img/110442889-9a3f2000-80bb-11eb-8a9f-126067af3967.png)
-Make sure the file is saved on this view when the file is public.
-
-The components are organized and ordered in groups and subgroups. Every group has at least a title. If required it also contains a description. The smallest groups are titled in the group header, a level above that by a scribble with font-size 25, and the main groups with a scribble with font-size 50. All the wires which reduce the readability of the script are set to display 'Hidden'.
-![image](./docs/img/110443530-4f71d800-80bc-11eb-814d-444d47377813.png)
-
-The descriptions are made in white panels.
-![image](./docs/img/110443719-8516c100-80bc-11eb-8f4e-a6d0db2a8e33.png)
-
-Unresolved issues are appointed with red panels.
-![image](./docs/img/110444078-e8a0ee80-80bc-11eb-8e5d-b0ee60f26790.png)
-
-Changes are visualized by colored groups. Red groups are the old groups which can be deleted, green ones are added and yellow groups have been edited. Add a panel in the relating color to describe the changes.
-![image](./docs/img/110445019-fc008980-80bd-11eb-8929-65c0a9571418.png)
-![image](./docs/img/110445135-1c304880-80be-11eb-9902-e7f920dd7066.png)
-If the changes have been made in a (Github-)branch, add a readme to summarize all the changes.
