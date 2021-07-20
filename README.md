@@ -1,8 +1,10 @@
 # Continuous Toolpath generator for cellular structures
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5084849.svg)](https://doi.org/10.5281/zenodo.5084849)
+
 ⚠️ Documentation still under development
 [Checkout our documentation website for a more complete explanation](https://robotic-building-tu-delft.github.io/Continuous-Toolpath-Generator/)
 ## Introduction
-This workflow takes a geometry in the form of a mesh and generates a continuous toolpath.You an can find an example of a generated:
+This workflow takes a geometry in the form of a mesh and generates a continuous toolpath.You  can find an example of a generated:
 
 ![Tool path generator example](./docs/img/intro-img.png)
 
